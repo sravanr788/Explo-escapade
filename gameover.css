@@ -46,6 +46,7 @@ h4{
     padding: 15px;
     font-size: 1.5rem;
     font-weight: bold;
+    cursor: pointer;
 }
 a{
     color: white;

@@ -9,8 +9,8 @@ body{
     background-image: url(./assets/bg2.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 .welcome-text{
     color: white;
@@ -64,10 +64,8 @@ a{
 }
 
 @media (max-width: 430px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+    body {
+        height: 100vh;
     }
     .form-container{
         padding: 5%;
@@ -102,11 +100,7 @@ a{
 
 }
 @media (max-width: 725px) and (min-width:430px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+   
     .container{
         padding : auto;
         width: 70%;
@@ -119,6 +113,13 @@ a{
         font-size: 14px;
     }
 }
+
+@media (min-width: 430px) and (max-width: 1444px) {
+    body {
+        height: 100vh;
+    }
+  }
+  
 
 
 

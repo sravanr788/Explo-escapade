@@ -9,14 +9,16 @@
 <body>
    <div class="panel">
     <div class="score">
-        <p>Score: <span>0</span></p>
+        <p>Score: <span id="score-board"></span></p>
     </div>
+    <div class="timer" id="timer"></div>
     <div class="bomb">
-        <img src="./assets/bomb.png" alt="">
+        <img src="./assets/bomb.png" alt="" class="image">
+        <span  id="bombs"></span>
     </div>
    </div>
    <div class="addons">
-    <div class="hint">
+    <div class="hint" id="hint">
         <img src="./assets/icons8-hint-100.png" alt="">
     </div>
     <div class="instructions"><a href="./instructions.html">
